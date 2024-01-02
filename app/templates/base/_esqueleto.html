@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Luiz Lima</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/meu_estilo.css') }}">
+    <script src="{{ url_for('static', filename='script/bootstrap.js') }}"></script>
+    <script src="{{ url_for('static', filename='script/jQuery-3.7.1.js') }}"></script>
+    <script src="{{ url_for('static', filename='script/meu_script.js') }}"></script>
+</head>
+<body class="flex-column bg-cor-de-fundo">
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
